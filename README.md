@@ -3,6 +3,8 @@ Uses machine learning to map all locations in the novel Ulysses by James Joyce u
 
 Live Demo - https://users.cs.cf.ac.uk/Anyiam-OsigweCE1/Ulysses_website/ul_home.html
 
+If you wish, you can run this code on your local machine -
+
 Produce a file containing all place names in Ulysses with relevant text extracts on a chapter by chapter basis
 >python map-ml.py
 output: new_uplaces.json
@@ -14,3 +16,5 @@ output: geo_uplaces.json
 Plot these place names on an interactive map with folium
 >python map-plot.py
 output: map_plot.html
+
+Advanced: If you wish, you can use this program as a foundation to geocode different texts other than Ulysses.
